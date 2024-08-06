@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    height: 260px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: -400px;
+    /* opacity: 90%; */
+
+
+    box-shadow: 0 0 10px rgb(0,0 0, .2);
+  border: 3px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(100px);
+  background: transparent;
+}   
+
+
+.container h2
+{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 28px);
+    padding: 13px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+/* Style for select dropdown */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7' viewBox='0 0 12 7'%3E%3Cpath fill='%23000000' d='M6 7L0 0h12L6 7z'/%3E%3C/svg%3E");
+    background-size: 12px 7px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+#model {
+    width: calc(100% - 55px); /* Adjust the width as needed */
+}
+
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+  }
+  
+  .container p {
+    color:aqua;
+    text-align: center;
+    margin-top: 20px;
+    animation: blink 1s infinite; /* Apply the blink animation */
+    font-size: 20px;
+    
+    
+  }
+
+
+
+/* Define a separate animation for the hover effect */
+@keyframes buttonPulseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply the animation on hover */
+  button:hover {
+    animation: buttonPulseAnimation 0.5s ease infinite alternate;
+  }
+  

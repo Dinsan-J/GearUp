@@ -1,0 +1,92 @@
+ .feedbg body
+{
+  background-image: url(cbg.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  height: 100vh;
+  /* padding-top: 80px; */
+  /* margin-top: 60px; */
+}
+
+
+
+
+
+.containerf {
+  position: fixed;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 500px;
+  background-color: #814444;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0,0 0, .2);
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  
+}
+
+
+
+.containerf h1
+{
+  color: white;
+  text-align: center;
+  /* margin-bottom: 20px; */
+
+}
+
+.containerf form {
+  display: flex;
+  flex-direction: column;
+}
+
+ .containerf label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: aqua;
+  margin-top: 20px;
+}
+
+.containerf input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.containerf textarea {
+  resize: vertical;
+}
+
+.containerf button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  margin-left: 200px;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.containerf button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.containerf input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, )
+}

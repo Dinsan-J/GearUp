@@ -1,0 +1,81 @@
+/* body
+{
+    background-image: url(cbg.jpg);
+    background-size: cover;
+} */
+
+
+.buttons-containerS {
+    display: flex;
+    justify-content: space-between; /* Align items with equal space between */
+    margin-top: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    
+    
+  }
+  
+  .buttons-containerS button {
+    padding: 30px 80px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    /* background: transparent; */
+    backdrop-filter: blur(20px);
+    border:  2px solid;
+    border-radius: 50px;
+    
+  }
+  
+  /* Styling for Sell button */
+  .buttons1 {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Styling for Buy button */
+  .buttons2 {
+    background-color: green;
+    color: white;
+  }
+  
+
+
+  .buttons3 {
+    background-color: blue;
+    color: white;
+  }
+  
+
+  .buttons4{
+    background-color: black;
+    color: white;
+  }
+  
+  /* Hover effect */
+  button:hover
+  {
+    opacity: 0.8;
+  }
+  
+  @keyframes buttonBounceAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation on hover */
+  button:hover {
+    animation: buttonBounceAnimation 0.3s ease;
+  }

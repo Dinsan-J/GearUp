@@ -1,0 +1,113 @@
+.sellform-body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color: #f0f8ff; /* Light cyan background for body */
+}
+
+.sellform-fuel,
+.sellform-bodyType,
+.sellform-transmission {
+    width: 32.5%;
+}
+
+.sellform-img {
+    float: right;
+    transform: scaleX(-1);
+}
+
+.sellform-container {
+    position: relative;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff; /* White background for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a subtle 3D effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.sellform-content {
+    color: #060505;
+}
+
+.sellform-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sellform-h1 {
+    text-align: center;
+    color: #333399; /* Dark blue color for heading */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sellform-label {
+    font-weight: bold;
+    display: block;
+    margin-left: 70px;
+    color: #333399; /* Dark blue color for labels */
+}
+
+.sellform-input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    opacity: 0.8;
+    border-radius: 5px; /* Slightly rounded corners for input fields */
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0; /* Light grey background for input fields */
+    color: #333333; /* Dark grey text color */
+}
+
+.sellform-input-radio {
+    margin-right: 10px;
+}
+
+.sellform-textarea {
+    resize: vertical;
+}
+
+.sellform-form-group-checkboxes {
+    display: flex;
+    align-items: center; 
+}
+
+.sellform-form-group-checkboxes label {
+    margin-right: 10px; 
+}
+
+.sellform-reset {
+    background-color: #cccccc; 
+    color: #333; 
+    padding: 6px 12px; 
+    font-size: 10px; 
+    border: none; 
+    cursor: pointer;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+
+.sellform-reset:hover {
+    background-color: #999; 
+    color: #fff; 
+}
+
+.sellform-submit {
+    background-color: #007BFF; /* Blue background for submit button */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for submit button */
+    cursor: pointer;
+    margin-left: 750px;
+}
+
+.sellform-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

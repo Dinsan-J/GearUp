@@ -1,0 +1,158 @@
+.bgc body {
+	font-family: Arial;
+	background-image: url(cbg.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 88vh;
+	margin-top: -25px;
+}
+
+
+
+.containerc {
+	width: 950px;
+	margin: 80px auto;
+	color: white;
+	line-height: 1.7;
+  perspective: 2700px;
+
+
+  
+}
+
+.text-center {
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	margin-top: 30px;
+	height: 200px;
+	
+}
+
+.icon {
+	background-color: white;
+	border-radius: 30px;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.contact-info {
+	display: inline-block;
+	padding: 4px 20px 0px 20px;
+}
+
+.address-line {
+	margin-top: 40px;
+ 
+}
+
+.address-line img
+{
+  width: 60px;
+  height: 60px;
+}
+
+.col-1 {
+	width: 530px;
+}
+
+.col-2 {
+	flex: 1 1 auto;
+	background-color: white;
+  background: transparent;
+  margin-top: -10px;
+
+  
+}
+
+.form-container {
+	color: #000;
+  /* background-color: #000; */
+	padding: 25px;
+  width: 500px;
+  height: 450px;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgb(0,0 0, .2);
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+
+  
+}
+
+.form-container h2
+{
+  font-weight: bold;
+  font-size: 28px;
+  
+}
+
+.contact-info-title {
+	color: #01bdd4;
+}
+
+.form-row {
+	padding-bottom: 20px;
+}
+
+.form-field {
+	width: 100%;
+	/* border: none; */
+  height: 40px;
+  border-radius: 10px;
+	border-bottom: 2px solid #000;
+}
+
+.form-row label
+{
+  color: #01bdd4;
+}
+
+.send-btn {
+	background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  margin-left: 170px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.send-btn:hover
+{
+	background-color: #01bdd4;
+}
+
+@media all and (max-width: 1024px) {
+	.container {
+		width: auto;
+		padding: 30px;
+	}
+	 .col-1 {
+		width: 360px;
+	} 
+}
+
+@media all and (max-width: 700px) {
+	.content {
+		display: block;
+	}
+	.col-2 {
+		margin-top: 40px;
+	} 
+	.col-1{
+	width:100%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.container {
+		padding: 10px;
+	}
+}
